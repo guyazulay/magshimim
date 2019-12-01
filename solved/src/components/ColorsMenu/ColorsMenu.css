@@ -1,0 +1,16 @@
+.ColorsMenu {
+    background-color: var(--color-1);
+}
+.ColorsMenu-color {
+    width: 100%;
+    height: 40px;
+    padding-left: 19px;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.ColorsMenu-color:hover {
+    background-color: grey;
+}

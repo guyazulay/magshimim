@@ -1,0 +1,27 @@
+.Sensor {
+    /* width:  */
+    min-height: 100px;
+    /* background-color: ; */
+    border-radius: 6px;
+    /*flex-properties*/
+    padding: 15px 19px;
+    box-sizing: border-box;
+}
+.Sensor-title {
+    font-size: 14px;
+    color: rgba(255, 255, 255,0.6);
+}
+.Sensor-content {
+}
+.Sensor-no-data, .Sensor-content {
+    color: white;
+}
+.Sensor-no-data {
+    font-size: 34px;
+}
+.Sensor-value {
+}
+.Sensor-unit {
+    margin-left: 6px;
+    font-size: 30px;
+}

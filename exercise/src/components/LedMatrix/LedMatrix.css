@@ -1,0 +1,22 @@
+.LedMatrix {
+    display: grid;
+    grid-template-columns: repeat(8, 120px);
+    grid-template-rows: repeat(8, 72px);
+    grid-gap: 16px 20px;
+}
+
+.LedMatrix-error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    width: 100%;
+}
+
+.LedMatrix-led-container {}
+
+.LedMatrix-led {}
+
+.LedMatrix-led-paper {}
+
+.LedMatrix-led-colors-menu {}

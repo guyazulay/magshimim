@@ -1,0 +1,21 @@
+.StatusIndicator {
+    border-radius: 50%;
+    border: 2px solid rgba(255,255,255,0.6);
+    box-sizing: border-box;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.StatusIndicator-inner {
+    display:flex;
+    box-sizing: border-box;
+    height: 75%;
+    width: 75%;
+    border-radius: 50%;
+}
+.StatusIndicator-disconnected {
+    background-color: #F6306F;
+}
+.StatusIndicator-connected {
+    background-color: #33FF68;
+}

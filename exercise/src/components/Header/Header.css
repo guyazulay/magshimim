@@ -1,0 +1,10 @@
+
+.Header {
+  background-color:pink;
+  /* /**flex properties*/
+  padding: 0 10px;
+}
+.Header-title {
+}
+.Header-status-indicator {
+}

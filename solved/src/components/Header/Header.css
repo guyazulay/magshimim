@@ -1,0 +1,19 @@
+
+.Header {
+  height: 3.75rem;
+  background-color:var(--color-1);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.Header-title {
+  color: white;
+  font-size: 18px;
+}
+.Header-status-indicator {
+  height: 29px;
+  width: 29px;
+}

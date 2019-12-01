@@ -1,0 +1,35 @@
+.App-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  --background-color: #192730;
+  --color-1: #393E44;
+  color: white;
+}
+.App-content {
+  background-color: var(--background-color);
+  flex: 1 1;
+  padding-top: 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+.App-sensors {
+  width: 410px;
+  height: 100%;
+  padding: 0 28px;
+  box-sizing: border-box;
+}
+.App-led-matrix {
+  flex: 1 1;
+}
+.App-sensors-sensor {
+  margin-bottom: 10px;
+}
+.App-temperature-unit:before {
+  content: "\00b0"
+}
+.App-compass-value:after {
+  content: "\00b0"
+}
